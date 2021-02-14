@@ -1,0 +1,36 @@
+{
+    "name": "visi-theme",
+    "displayName": "Visi's Theme",
+    "description": "My personal theme that I've been using, based on the popular Palenight theme.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "galleryBanner": {
+        "color": "#292D3E",
+        "theme": "dark"
+    },
+    "keywords": [
+        "palenight",
+        "dark",
+        "blue",
+        "purple",
+        "material",
+        "theme",
+        "dark theme",
+        "purple theme",
+        "material theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Visi's Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Visi's Theme-color-theme.json"
+            }
+        ]
+    }
+}
