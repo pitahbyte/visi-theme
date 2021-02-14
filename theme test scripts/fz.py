@@ -9,3 +9,14 @@ for i in range(1, 101):
       print("Buzz")
   else:
       print(i)
+
+def aaa(*values):
+    values.add(1)
+    values[i] = 0
+
+class myClass:
+    x: int
+    y: int
+    
+class myClass2:
+    x: myClass

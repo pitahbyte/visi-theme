@@ -1,3 +1,4 @@
+using System.Runtime.Intrinsics;
 using System.Numerics;
 using System.Text.RegularExpressions;
 using System.Xml.Schema;
@@ -6,6 +7,9 @@ using System.Runtime.CompilerServices;
 using VISI;
 using UnityEngine;
 
+#region a
+
+#endregion
 
 public class ExmpleClassIgnore{
     public void a(){
@@ -16,7 +20,7 @@ public class ExmpleClassIgnore{
         var c = a ? false : true;
         var d = a ?? b; 
         var e = c[0, 1];
-        int2 vec = (0, 1);
-        vex.x =
+        (int, int) vec = (0, 1);
+        vec.Item1 = 3;
     }
 }

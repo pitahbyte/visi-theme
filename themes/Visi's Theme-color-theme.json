@@ -295,7 +295,7 @@
 				"meta.tag",
 				"comment.wildcard",
 				"entity.name.function.preprocessor",
-				"punctuation.definition.directive",
+				"variable.other.prolog",
 			],
 			"settings": {
 				"foreground": "#FFCB6B"
@@ -312,7 +312,8 @@
 				"entity.name.function.operator",
 				"punctuation.definition.variable",
 				"keyword.operator.assignment.arithmetic",
-				"keyword.operator.assignment.compound",					
+				"keyword.operator.assignment.compound",
+				"punctuation.separator.question-mark",			
 			],
 			"settings": {
 				"foreground": "#F78C6C"
@@ -321,7 +322,7 @@
 		{
 			"name": "Type decorators",
 			"scope": [
-				"punctuation.separator.question-mark",
+				
 				
 			],
 			"settings": {
@@ -335,7 +336,7 @@
 				"entity.name.type.module",
 				"support.function",
 				"support.module",
-				
+				"constant.other.symbol.prolog",
 			],
 			"settings": {
 				"foreground": "#89DDFF"
@@ -369,7 +370,8 @@
 				"storage.type.namespace",
 				"storage.modifier",
 				"keyword.operator.new",
-				
+				"storage.type.class.python",
+				"storage.type.function.python"
 			],
 			"settings": {
 				"foreground": "#C792EA"
