@@ -32,5 +32,18 @@
                 "path": "./themes/Visi's Theme-color-theme.json"
             }
         ]
+    },
+    "author":
+    {
+        "name": "Vicent Baeza",
+        "email": "vicentbaeza7@gmail.com"
+    },
+    "publisher": "vicentbaeza",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vbe5-ua/visi-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/vbe5-ua/visi-theme/issues"
     }
 }
