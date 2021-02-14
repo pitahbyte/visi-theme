@@ -4,12 +4,6 @@ using System.Text.RegularExpressions;
 using System.Xml.Schema;
 using System;
 using System.Runtime.CompilerServices;
-using VISI;
-using UnityEngine;
-
-#region a
-
-#endregion
 
 public class ExmpleClassIgnore{
     public void a(){
@@ -22,5 +16,16 @@ public class ExmpleClassIgnore{
         var e = c[0, 1];
         (int, int) vec = (0, 1);
         vec.Item1 = 3;
+        int a = new void();
+
+        myEnum a = myEnum.A;
     }
+
+    enum myEnum{
+        A,
+        B,
+        C,
+    }
+
+
 }

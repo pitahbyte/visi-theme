@@ -209,26 +209,26 @@
 			"name": "Global settings",
 			"scope": [
 				"variable",
-				"",
+				""
 			],
 			"settings": {
-				"foreground": "#eeffff"
+				"foreground": "#BFC7D5"
 			}
 		},
 		{
 			"name": "Punctuation",
 			"scope": [
-				"punctuation",
+				"punctuation"
 			],
 			"settings": {
-				"foreground": "#bfc7d5"
+				"foreground": "#8189b8"
 			}
 		},
 		{
 			"name": "Comment",
 			"scope": [
 				"comment",
-				"punctuation.definition.tag.cs",
+				"punctuation.definition.tag.cs"
 				
 			],
 			"settings": {
@@ -240,7 +240,7 @@
 			"name": "Comment Highlights",
 			"scope": [
 				"entity.name.tag.localname.cs",
-				"meta.tag.cs",
+				"meta.tag.cs"
 			],
 			"settings":{
 				"foreground": "#c5ccda",
@@ -253,10 +253,10 @@
 				"string",
 				"punctuation.definition.string",
 				"punctuation.support.type.property-name.begin.json",
-				"punctuation.support.type.property-name.end.json",
+				"punctuation.support.type.property-name.end.json"
 			],
 			"settings": {
-				"foreground": "#C3E88D",		
+				"foreground": "#C3E88D"	
 			}
 		},
 		{
@@ -268,7 +268,7 @@
 				"string.quoted.double.json",
 				"constant.character.escape",
 				"punctuation.definition.string.begin.json",
-				"punctuation.definition.string.end.json",
+				"punctuation.definition.string.end.json"
 				
 			],
 			"settings": {
@@ -296,10 +296,10 @@
 				"comment.wildcard",
 				"entity.name.function.preprocessor",
 				"variable.other.prolog",
-				"entity.name.variable.enum-member",
+				"entity.name.variable.enum-member"
 			],
 			"settings": {
-				"foreground": "#ffae6b"
+				"foreground": "#FFCB6B"
 			}
 		},
 		{
@@ -314,8 +314,17 @@
 				"punctuation.definition.variable",
 				"keyword.operator.assignment.arithmetic",
 				"keyword.operator.assignment.compound",
-				"punctuation.separator.question-mark",
-				"punctuation.accessor",			
+				"punctuation.separator.question-mark"		
+			],
+			"settings": {
+				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"name": "Type decorators",
+			"scope": [
+				
+				
 			],
 			"settings": {
 				"foreground": "#ff5572"
@@ -328,44 +337,33 @@
 				"entity.name.type.module",
 				"support.function",
 				"support.module",
-				"constant.other.symbol.prolog",
+				"constant.other.symbol.prolog"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#89DDFF"
 			}
 		},
 		{
-			"name": "Namespaces",
-			"scope": [				
+			"name": "Types",
+			"scope": [
+				"storage.type.built-in",	
+				"storage.type",
+				"storage.namespace",
+				"entity.name.type",
 				"entity.name.namespace",
 				"storage.namespace",
 				"entity.name.namespace",
-				"entity.name.type.namespace"
+				"keyword.type",
+				"keyword.other.var"
 			],
 			"settings": {
 				"foreground": "#82AAFF"
 			}
 		},
 		{
-			"name": "Class Types",
-			"scope": [
-					
-				"storage.type",
-				"storage.namespace",
-				"entity.name.type",
-
-				"keyword.type",
-				"keyword.other.var",
-			],
-			"settings": {
-				"foreground": "#82e6ff"
-			}
-		},
-		{
 			"name": "Keywords, Storage modifiers",
 			"scope": [
 				"keyword.other",
-				"keyword.control",
 				"meta.head.struct",
 				"storage.type.struct.cpp",
 				"storage.type.class.cpp",
@@ -377,8 +375,14 @@
 				"storage.type.function.python"
 			],
 			"settings": {
-				"foreground": "#C792EA",
+				"foreground": "#C792EA"
 			}
-		},
+		}
 	],
+	"semanticTokenColors": {
+		"enumMember": "#FFCB6B",
+		"class": "#82AAFF",
+		"struct": "#80CBC4",
+		"interface": "#89DDFF"
+	}
 }
