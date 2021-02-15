@@ -294,10 +294,10 @@
 				"punctuation.definition.constant",
 				"comment.wildcard",
 				"entity.name.function.preprocessor",
-				"entity.name.variable.enum-member",
 				"invalid.illegal.constant",
 				"support.constant.subsections",
 				"entity.name.function.label.ahk",
+				
 			],
 			"settings": {
 				"foreground": "#ffae6b"
@@ -319,6 +319,8 @@
 				"punctuation.accessor",
 				"punctuation.definition.variable",
 				"punctuation.definition.equals.colon",
+				"punctuation.separator.period",
+				"punctuation.separator.colon",
 			],
 			"settings": {
 				"foreground": "#ff5572"
@@ -340,13 +342,16 @@
 			}
 		},
 		{
-			"name": "Namespaces & Labels",
+			"name": "Namespaces, Labels & This",
 			"scope": [				
 				"entity.name.namespace",
 				"storage.namespace",
 				"entity.name.namespace",
 				"entity.name.type.namespace",
 				"keyword.label",
+				"entity.name.label",
+				"variable.language.this",
+				"keyword.other.this",
 				
 			],
 			"settings": {

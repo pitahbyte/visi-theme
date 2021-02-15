@@ -1,3 +1,5 @@
+using System.Diagnostics;
+using System.Globalization;
 using System.Runtime.Intrinsics;
 using System.Numerics;
 using System.Text.RegularExpressions;
@@ -17,8 +19,11 @@ public class ExmpleClassIgnore{
         (int, int) vec = (0, 1);
         vec.Item1 = 3;
         int a = new void();
-
+    int:
         myEnum a = myEnum.A;
+        this.a();
+
+        goto int;
     }
 
     enum myEnum{
