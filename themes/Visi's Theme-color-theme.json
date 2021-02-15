@@ -6,7 +6,7 @@
 	],
 	"type": "dark",
 	"semanticClass": "palenight",
-	"semanticHighlighting": false,
+	"semanticHighlighting": true,
 	"colors": {
 		"contrastActiveBorder": null,
 		"contrastBorder": "#282B3C",
@@ -407,4 +407,7 @@
 			}
 		},
 	],
+	"semanticTokenColors": {
+		"type": "#82e6ff",
+	}
 }
