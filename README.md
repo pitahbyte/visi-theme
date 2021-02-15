@@ -3,31 +3,31 @@ Based on the popular [Palenight Theme](https://marketplace.visualstudio.com/item
 
 <hr> Python:
 
-![](images/py.png)
+![py](images/py.png)
 
 <hr> C++
 
-![](images/cpp.png)
+![cpp](images/cpp.png)
 
 <hr> C#
 
-![](images/cs.png)
+![cs](images/cs.png)
 
 <hr> Clojure
 
-![](images/clj.png)
+![clj](images/clj.png)
 
 <hr> HTML
 
-![](images/html.png)
+![html](images/html.png)
 
 <hr> JSON:
 
-![](images/json.png)
+![json](images/json.png)
 
-<hr> AKH
+<hr> AHK
 
-![](images/ahk.png)
+![ahk](images/ahk.png)
 
 <hr> 
 
