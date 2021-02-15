@@ -208,7 +208,8 @@
 		{
 			"name": "Global settings",
 			"scope": [
-				"variable",
+				"string.unquoted.argument",
+				"string.interpolated.backtick.shell",
 				"",
 			],
 			"settings": {
@@ -229,7 +230,7 @@
 			"scope": [
 				"comment",
 				"punctuation.definition.tag.cs",
-				
+				"punctuation.definition.comment"
 			],
 			"settings": {
 				"foreground": "#8189b8",
@@ -291,12 +292,12 @@
 				"constant.language.null",
 				"constant.language",
 				"punctuation.definition.constant",
-				"entity.name.tag",
-				"meta.tag",
 				"comment.wildcard",
 				"entity.name.function.preprocessor",
-				"variable.other.prolog",
 				"entity.name.variable.enum-member",
+				"invalid.illegal.constant",
+				"support.constant.subsections",
+				"entity.name.function.label.ahk",
 			],
 			"settings": {
 				"foreground": "#ffae6b"
@@ -315,7 +316,9 @@
 				"keyword.operator.assignment.arithmetic",
 				"keyword.operator.assignment.compound",
 				"punctuation.separator.question-mark",
-				"punctuation.accessor",			
+				"punctuation.accessor",
+				"punctuation.definition.variable",
+				"punctuation.definition.equals.colon",
 			],
 			"settings": {
 				"foreground": "#ff5572"
@@ -329,33 +332,40 @@
 				"support.function",
 				"support.module",
 				"constant.other.symbol.prolog",
+				"entity.name.tag",
+				"meta.tag",
 			],
 			"settings": {
 				"foreground": "#fad87c"
 			}
 		},
 		{
-			"name": "Namespaces",
+			"name": "Namespaces & Labels",
 			"scope": [				
 				"entity.name.namespace",
 				"storage.namespace",
 				"entity.name.namespace",
-				"entity.name.type.namespace"
+				"entity.name.type.namespace",
+				"keyword.label",
+				
 			],
 			"settings": {
 				"foreground": "#82AAFF"
 			}
 		},
 		{
-			"name": "Class Types",
+			"name": "Types, Prolog Variables & AHK Lang Constants",
 			"scope": [
 					
 				"storage.type",
 				"storage.namespace",
 				"entity.name.type",
-
 				"keyword.type",
 				"keyword.other.var",
+				"support.class",
+				"variable.other.prolog",
+				"entity.name.command",
+				"constant.language.ahk"
 			],
 			"settings": {
 				"foreground": "#82e6ff"
@@ -367,14 +377,15 @@
 				"keyword.other",
 				"keyword.control",
 				"meta.head.struct",
-				"storage.type.struct.cpp",
-				"storage.type.class.cpp",
 				"storage.type.namespace.directive",
-				"storage.type.namespace",
 				"storage.modifier",
 				"keyword.operator.new",
-				"storage.type.class.python",
-				"storage.type.function.python"
+				"storage.type.class",
+				"storage.type.function",
+				"storage.type.struct",
+				"storage.type.namespace",
+				"storage.type.interface",
+				"storage.type.enum",
 			],
 			"settings": {
 				"foreground": "#C792EA",
