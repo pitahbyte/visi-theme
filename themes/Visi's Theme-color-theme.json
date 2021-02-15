@@ -212,6 +212,7 @@
 				"string.interpolated.backtick.shell",
 				"",
 				"variable.other",
+				
 			],
 			"settings": {
 				"foreground": "#eeffff"
@@ -271,7 +272,7 @@
 				"constant.character.escape",
 				"punctuation.definition.string.begin.json",
 				"punctuation.definition.string.end.json",
-				
+				"punctuation.definition.regexp",
 			],
 			"settings": {
 				"foreground": "#80CBC4"
@@ -298,7 +299,7 @@
 				"invalid.illegal.constant",
 				"support.constant.subsections",
 				"entity.name.function.label.ahk",
-				
+				"constant.keyword"
 			],
 			"settings": {
 				"foreground": "#ffae6b"
@@ -322,6 +323,7 @@
 				"punctuation.definition.equals.colon",
 				"punctuation.separator.period",
 				"punctuation.separator.colon",
+				
 			],
 			"settings": {
 				"foreground": "#ff5572"
@@ -337,6 +339,8 @@
 				"constant.other.symbol.prolog",
 				"entity.name.tag",
 				"meta.tag",
+				"meta.function-call",
+				"entity.name.function.clojure",
 			],
 			"settings": {
 				"foreground": "#fad87c"
@@ -353,7 +357,8 @@
 				"entity.name.label",
 				"variable.language.this",
 				"keyword.other.this",
-				
+				"storage.modifier.import.java",
+				"variable.parameter.function.language.special.self",
 			],
 			"settings": {
 				"foreground": "#82AAFF"
@@ -371,7 +376,10 @@
 				"support.class",
 				"variable.other.prolog",
 				"entity.name.command",
-				"constant.language.ahk"
+				"constant.language.ahk",
+				"entity.global.clojure",
+				"entity.name.class",
+
 			],
 			"settings": {
 				"foreground": "#82e6ff"
@@ -392,6 +400,7 @@
 				"storage.type.namespace",
 				"storage.type.interface",
 				"storage.type.enum",
+				"storage.control",
 			],
 			"settings": {
 				"foreground": "#C792EA",
