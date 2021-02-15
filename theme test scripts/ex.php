@@ -1,15 +1,6 @@
 Code from the Sample Programs in Every Language (SPEL) project 
 
 <?php
-
-/**
- * Create a game of life grid.
- * If no spawn rate is given, an empty grid is generated.
- * @param int width Width
- * @param int height Height
- * @param float spawn_rate Spawn rate (% living vs dead between 0.0 to 1.0)
- * @return array Array of array width x height
- */
 function build_grid($width, $height, $spawn_rate=0) {
     $grid = array_fill(0, $height, array_fill(0, $width, FALSE));
 
@@ -25,14 +16,6 @@ function build_grid($width, $height, $spawn_rate=0) {
     return $grid;
 }
 
-/**
- * Check if the grid contains a cell at the specified location.
- * The function will wrap around edges of the grid, if coordinates are out of bounds.
- * @param array grid The grid to check
- * @param int x X coordinate
- * @param int y Y coordinate
- * @return TRUE if cell found, false otherwise
- */
 function contains_cell($grid, $x, $y) {
     $width = count($grid[0]);
     $height = count($grid);
@@ -46,14 +29,6 @@ function contains_cell($grid, $x, $y) {
     return $grid[$y][$x];
 }
 
-/**
- * Count the number of neighbors for the specified cell.
- * The function will wrap around edges of the grid.
- * @param array grid The grid
- * @param int x X coordinate
- * @param int y Y coordinate
- * @return number of neighbors
- */
 function neighbor_count($grid, $x, $y) {
     $count = 0;
     if (contains_cell($grid, $x - 1, $y - 1))   ++$count;

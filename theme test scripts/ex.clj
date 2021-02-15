@@ -37,7 +37,7 @@
     ))
 
 (defn- print-error []
-  (println "Usage: please provide a list of at least two integers to sort in the format \"1, 2, 3, 4, 5\""))
+  (println "Please provide a list of two or more integers to sort in the format \"1, 2, 3, 4, 5\""))
 
 (defn main [args]
   (try

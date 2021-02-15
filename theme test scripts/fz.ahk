@@ -1,6 +1,6 @@
-#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory
+#NoEnv
+SendMode Input
+SetWorkingDir %A_ScriptDir%
 #SingleInstance
 
 global _starttime := A_TickCount
@@ -27,7 +27,7 @@ CoordMode, Mouse, Screen
 	
 	xval := xval * 2 - 1
 	yval := yval * 2 - 1
-	xval := xval ;+ 2
+	xval := xval
 	yval := yval + 2
 	fraction := fraction * 2
 		
