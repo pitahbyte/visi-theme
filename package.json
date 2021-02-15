@@ -2,7 +2,7 @@
     "name": "visi-theme",
     "displayName": "Visi's Theme",
     "description": "My personal theme that I've been using, based on the popular Palenight theme.",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "engines": {
         "vscode": "^1.53.0"
     },
