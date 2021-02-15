@@ -1,4 +1,4 @@
-Code from the Sample Programs in Every Language (SPEL) project
+Code from the Sample Programs in Every Language (SPEL) project 
 
 <?php
 

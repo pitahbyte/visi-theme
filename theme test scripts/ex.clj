@@ -1,4 +1,4 @@
-; code from the Sample Programs in Every Language (SPEL) project
+; code from the Sample Programs in Every Language (SPEL) project 
 
 (ns bubble-sort
 	(:gen-class))

@@ -1,3 +1,5 @@
+# code from the Sample Programs in Every Language (SPEL) project 
+
 from random import randint
 
 class Cell:
