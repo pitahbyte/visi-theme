@@ -211,6 +211,7 @@
 				"string.unquoted.argument",
 				"string.interpolated.backtick.shell",
 				"",
+				"variable.other",
 			],
 			"settings": {
 				"foreground": "#eeffff"
