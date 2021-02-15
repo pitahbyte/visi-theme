@@ -1,18 +1,32 @@
 This is my personal theme that i've been using.
 Based on the popular [Palenight Theme](https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme).
 
-![](screenshots/py.png)
+<hr> Python:
 
-![](screenshots/cs.png)
+![](images/py.png)
 
-![](screenshots/cs.png)
+<hr> C++
 
-![](screenshots/clj.png)
+![](images/cpp.png)
 
-![](screenshots/html.png)
+<hr> C#
 
-![](screenshots/json.png)
+![](images/cs.png)
 
-![](screenshots/ahk.png)
+<hr> Clojure
+
+![](images/clj.png)
+
+<hr> HTML
+
+![](images/html.png)
+
+<hr> JSON:
+
+![](images/json.png)
+
+<hr> AKH
+
+![](images/ahk.png)
 
 The font I am using in the screenshots is [Fira Code](https://github.com/tonsky/FiraCode).
