@@ -29,4 +29,6 @@ Based on the popular [Palenight Theme](https://marketplace.visualstudio.com/item
 
 ![](images/ahk.png)
 
+<hr> 
+
 The font I am using in the screenshots is [Fira Code](https://github.com/tonsky/FiraCode).

@@ -413,5 +413,6 @@
 	],
 	"semanticTokenColors": {
 		"type": "#82e6ff",
-	}
+        "operatorOverloaded": "#ff5572",
+    }
 }
