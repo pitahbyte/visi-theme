@@ -7,10 +7,6 @@ Based on the popular [Palenight Theme](https://marketplace.visualstudio.com/item
 
 ![py](images/py.png)
 
-## C:
-
-![c](images/c.png)
-
 ## C++:
 
 ![cpp](images/cpp.png)
@@ -22,14 +18,6 @@ Based on the popular [Palenight Theme](https://marketplace.visualstudio.com/item
 ## Clojure:
 
 ![clj](images/clj.png)
-
-## Kotlin:
-
-![kt](images/kt.png)
-
-## Java:
-
-![java](images/java.png)
 
 ## JavaScript:
 
@@ -51,20 +39,8 @@ Based on the popular [Palenight Theme](https://marketplace.visualstudio.com/item
 
 ![yaml](images/yaml.png)
 
-## XML:
-
-![xml](images/xml.png)
-
-## Go:
-
-![go](images/go.png)
-
 ## Elixir:
 
 ![ex](images/ex.png)
-
-## AHK:
-
-![ahk](images/ahk.png)
 
 The font I am using in the screenshots is [JetBrains Mono](https://www.jetbrains.com/lp/mono/).
