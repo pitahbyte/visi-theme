@@ -1,4 +1,4 @@
-<h2>  Python:
+<h2>  Python: </h2>
 
 ![pyimg](./images/py.png)
 
