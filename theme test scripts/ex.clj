@@ -16,9 +16,7 @@
       xs
       (recur ys))))
 
-(defn- convert-to-int-array [string]
-  (->> (clojure.string/split string #", " )
-       (map #(Integer/parseInt %))))
+
 
 (defn- convert-to-string [int-array]
   (clojure.string/join ", " int-array))
@@ -29,6 +27,10 @@
       (bubble-sort 
         (convert-to-int-array string)))))
 
+(defn- convert-to-int-array [string]
+  (->> (clojure.string/split string #", " )
+       (map #(Integer/parseInt %))))
+
 (defn- is-valid-input [args]
   (and 
     (not= (count args) 0) 
@@ -37,7 +39,7 @@
     ))
 
 (defn- print-error []
-  (println "Please provide a list of two or more integers to sort in the format \"1, 2, 3, 4, 5\""))
+  (println "Provide a list of two or more integers to sort in the format \"1, 2, 3, 4, 5\""))
 
 (defn main [args]
   (try

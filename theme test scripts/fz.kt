@@ -23,6 +23,6 @@ fun fizzbuzz(n: Int): String {
     }
 }
 
-fun main2(args: Array<String>) {
+fun main(args: Array<String>) {
     (1..100).map { num -> println(fizzbuzz(num)) }
 }

@@ -212,7 +212,6 @@
 				"string.interpolated.backtick.shell",
 				"",
 				"variable.other",
-				
 			],
 			"settings": {
 				"foreground": "#eeffff"
@@ -222,6 +221,7 @@
 			"name": "Punctuation",
 			"scope": [
 				"punctuation",
+                "meta.tag.inline.any"
 			],
 			"settings": {
 				"foreground": "#bfc7d5"
@@ -255,23 +255,18 @@
 			"scope": [
 				"string",
 				"punctuation.definition.string",
-				"punctuation.support.type.property-name.begin.json",
-				"punctuation.support.type.property-name.end.json",
 			],
 			"settings": {
 				"foreground": "#C3E88D",		
 			}
 		},
 		{
-			"name": "RegExp String / JSON String / Escape / Chars",
+			"name": "RegExp String /Escape / Chars",
 			"scope": [
 				"string.regexp",
 				"string.regexp keyword.other",
 				"string.regexp",
-				"string.quoted.double.json",
 				"constant.character.escape",
-				"punctuation.definition.string.begin.json",
-				"punctuation.definition.string.end.json",
 				"punctuation.definition.regexp",
 			],
 			"settings": {
@@ -299,7 +294,12 @@
 				"invalid.illegal.constant",
 				"support.constant.subsections",
 				"entity.name.function.label.ahk",
-				"constant.keyword"
+				"constant.keyword",
+                "support.constant.property-value",
+                "keyword.other.unit",
+                "constant.other.color",
+                "punctuation.separator.decimal.period",
+                "constant.character.entity",
 			],
 			"settings": {
 				"foreground": "#ffae6b"
@@ -326,8 +326,16 @@
 				"storage.modifier.pointer",
 				"punctuation.separator.dot-access",
 				"punctuation.section.angle-brackets.begin.template.call.cpp",
-				"punctuation.section.angle-brackets.end.template.call.cpp"
-			],
+				"punctuation.section.angle-brackets.end.template.call.cpp",
+                "entity.name.tag.reference",
+                "punctuation.definition.entity",
+                "entity.name.tag.wildcard",
+                "punctuation.separator.method",
+                "punctuation.definition.constant.elixir",
+                "keyword.symbol",
+                "punctuation.separator.statement.and",
+                "punctuation.definition.variable.shell variable.other.normal.shell"
+            ],
 			"settings": {
 				"foreground": "#ff5572"
 			}
@@ -344,7 +352,8 @@
 				"meta.tag",
 				"meta.function-call",
 				"entity.name.function.clojure",
-			],
+                "entity.other.attribute-name",
+            ],
 			"settings": {
 				"foreground": "#fad87c"
 			}
@@ -362,7 +371,8 @@
 				"keyword.other.this",
 				"storage.modifier.import.java",
 				"variable.parameter.function.language.special.self",
-			],
+                "keyword.control.at-rule",
+            ],
 			"settings": {
 				"foreground": "#82AAFF"
 			}
@@ -370,7 +380,7 @@
 		{
 			"name": "Types, Prolog Variables & AHK Lang Constants",
 			"scope": [
-					
+                
 				"storage.type",
 				"storage.namespace",
 				"entity.name.type",
@@ -383,8 +393,16 @@
 				"entity.global.clojure",
 				"entity.name.class",
 				"entity.name.tag",
-
-			],
+                "entity.other.attribute-name.class",
+                "entity.other.attribute-name.pseudo-class",
+                "entity.other.attribute-name.pseudo-element",
+                "entity.other.attribute-name.attribute",
+                "support.type.property-name",
+                "punctuation.support.type.property-name.begin.json",
+				"punctuation.support.type.property-name.end.json",
+                "support.type.vendored.property-name",
+                "variable.other.constant.elixir",
+            ],
 			"settings": {
 				"foreground": "#82e6ff"
 			}
@@ -405,7 +423,20 @@
 				"storage.type.interface",
 				"storage.type.enum",
 				"storage.control",
-			],
+                "entity.name.tag.css",
+                "constant.other.symbol.elixir",
+                "keyword.fsharp",
+                "keyword.function",
+                "keyword.interface",
+                "keyword.map",
+                "keyword.struct",
+                "keyword.channel",
+                "keyword.const",
+                "keyword.package",
+                "keyword.type",
+                "keyword.import",
+                "keyword.var",
+            ],
 			"settings": {
 				"foreground": "#C792EA",
 			}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<letter>
+    <title maxlength="10"> Smith Letter </title>
+    <salutation limit="40">Dear Smith,</salutation>
+    <text>
+        Lorem Ipsum Donor sit amet adipiscing edit.
+    </text>
+    <signature> John Smith</signature>
+    <address translate="yes">Smith &amp; Company Ltd.</address>
+    <address translate="no">Smithtown</address>
+    <logo alt="Logo of Smith and Company Ltd."/>
+</letter>

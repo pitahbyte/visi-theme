@@ -1,0 +1,12 @@
+
+constants: # TODO: add more constants
+    pi: 3.1415926535
+    tau: "2*pi"
+    sqrt2: 1.4142135623
+    sqrt3: 1.7320508075
+    phi: 1.6180339887 
+
+settings:
+    simplifyMode: computeSymbolic
+    alternativeSimplifier: null
+    expression: "f(a) = integral(dx/(a - sin(x)))"

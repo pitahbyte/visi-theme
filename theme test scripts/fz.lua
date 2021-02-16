@@ -1,17 +1,15 @@
-for num = 1,100 do
+for num = 1, 100 do
     text = ""
   
     if num % 3 == 0 then
-      text = text .. "fizz" 
+        text = text .. "fizz" 
     end
-  
     if num % 5 == 0 then
-      text = text .. "buzz" 
+        text = text .. "buzz" 
     end
   
     print(text ~= "" and text or num)
-  
-  end
+end
 
 mod3 = "fizz"
 mod5 = "buzz"

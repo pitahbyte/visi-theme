@@ -1,34 +1,70 @@
 This is my personal theme that i've been using.
 Based on the popular [Palenight Theme](https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme).
 
-<hr> Python:
+# Images:
+
+## Python:
 
 ![py](images/py.png)
 
-<hr> C++
+## C:
+
+![c](images/c.png)
+
+## C++:
 
 ![cpp](images/cpp.png)
 
-<hr> C#
+## C#:
 
 ![cs](images/cs.png)
 
-<hr> Clojure
+## Clojure:
 
 ![clj](images/clj.png)
 
-<hr> HTML
+## Kotlin:
+
+![kt](images/kt.png)
+
+## Java:
+
+![java](images/java.png)
+
+## JavaScript:
+
+![js](images/js.png)
+
+## HTML:
 
 ![html](images/html.png)
 
-<hr> JSON:
+## CSS:
+
+![css](images/css.png)
+
+## JSON:
 
 ![json](images/json.png)
 
-<hr> AHK
+## YAML:
+
+![yaml](images/yaml.png)
+
+## XML:
+
+![xml](images/xml.png)
+
+## Go:
+
+![go](images/go.png)
+
+## Elixir:
+
+![ex](images/ex.png)
+
+## AHK:
 
 ![ahk](images/ahk.png)
 
-<hr> 
-
-The font I am using in the screenshots is [Fira Code](https://github.com/tonsky/FiraCode).
+The font I am using in the screenshots is [JetBrains Mono](https://www.jetbrains.com/lp/mono/).

@@ -1,10 +1,8 @@
 Code from the Sample Programs in Every Language (SPEL) project 
 
 <?php
-function build_grid($width, $height, $spawn_rate=0) {
+function build_grid($width, $height, $spawn_rate = 0) {
     $grid = array_fill(0, $height, array_fill(0, $width, FALSE));
-
-    $spawn_rate *= 100;
     for ($y = 0; $y < $height; ++$y) {
         for ($x = 0; $x < $width; ++$x) {
             if (random_int(1, 100) <= $spawn_rate) {
@@ -12,9 +10,9 @@ function build_grid($width, $height, $spawn_rate=0) {
             }
         }
     }
-
     return $grid;
 }
+?>
 
 function contains_cell($grid, $x, $y) {
     $width = count($grid[0]);

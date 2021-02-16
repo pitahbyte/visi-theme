@@ -1,20 +1,13 @@
 {
-    "tokenColors": 
-    [
-	  {
-		"name": "Global settings",
-		"scope": "",
-		"settings": {
-		  "foreground": "#bfc7d5"
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#697098",
+				"fontStyle": "italic"
+			},
+			"enabled": true
 		}
-	  },
-	  {
-		"name": "Comment",
-		"scope": "comment",
-		"settings": {
-		  "foreground": "#697098",
-		  "fontStyle": "italic"
-		}
-	  }
-    ]
+	]
 }

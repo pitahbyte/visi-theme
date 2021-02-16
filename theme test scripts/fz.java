@@ -1,24 +1,16 @@
 class FizzBuzz {
 	public static void main(String[] args) {
-		int num;
-
-		for (num = 1; num <= 100; num++) {
+		for (int num = 1; num <= 100; num++) {
 			String text = "";
 
-			if (num % 3 == 0) {
+			if (num % 3 == 0)
 				text += "fizz";
-			}
-
-			if (num % 5 == 0) {
+			if (num % 5 == 0)
 				text += "buzz";
-			}
+			if (text.isEmpty())
+				text = Integer.toString(num);
 
-			if (!text.isEmpty()) {
-				System.out.println(text);
-			}
-			else {
-				System.out.println(num);
-			}
+            System.out.println(text);
 		}
 	}
 }
