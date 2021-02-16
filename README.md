@@ -19,10 +19,6 @@ Based on the popular [Palenight Theme](https://marketplace.visualstudio.com/item
 
 ![clj](images/clj.png)
 
-## JavaScript:
-
-![js](images/js.png)
-
 ## HTML:
 
 ![html](images/html.png)
@@ -34,10 +30,6 @@ Based on the popular [Palenight Theme](https://marketplace.visualstudio.com/item
 ## JSON:
 
 ![json](images/json.png)
-
-## YAML:
-
-![yaml](images/yaml.png)
 
 ## Elixir:
 
