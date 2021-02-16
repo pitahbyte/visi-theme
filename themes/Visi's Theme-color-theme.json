@@ -402,6 +402,7 @@
 				"punctuation.support.type.property-name.end.json",
                 "support.type.vendored.property-name",
                 "variable.other.constant.elixir",
+                "keyword.type",
             ],
 			"settings": {
 				"foreground": "#82e6ff"
