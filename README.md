@@ -3,36 +3,36 @@ Based on the popular [Palenight Theme](https://marketplace.visualstudio.com/item
 
 # Images:
 
-## Python:
+<h2>  Python:
 
-![py](images/py.png)
+![pyimg](./images/py.png)
 
-## C++:
+<h2>  C++: </h2>
 
-![cpp](images/cpp.png)
+![cppimg](./images/cpp.png)
 
-## C#:
+<h2>  C#: </h2>
 
-![cs](images/cs.png)
+![csimg](./images/cs.png)
 
-## Clojure:
+<h2> Clojure: </h2>
 
-![clj](images/clj.png)
+![cljimg](./images/clj.png)
 
-## HTML:
+<h2> HTML: </h2>
 
-![html](images/html.png)
+![htmlimg](./images/html.png)
 
-## CSS:
+<h2> SCSS: </h2>
 
-![css](images/css.png)
+![cssimg](./images/css.png)
 
-## JSON:
+<h2>  JSON: </h2>
 
-![json](images/json.png)
+![jsonimg](./images/json.png)
 
-## Elixir:
+<h2>  Elixir: </h2>
 
-![ex](images/ex.png)
+![eximg](images/ex.png)
 
 The font I am using in the screenshots is [JetBrains Mono](https://www.jetbrains.com/lp/mono/).
