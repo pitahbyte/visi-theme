@@ -378,7 +378,7 @@
 			}
 		},
 		{
-			"name": "Types, Prolog Variables & AHK Lang Constants",
+			"name": "Types, Tags, Prolog Variables & AHK Lang Constants",
 			"scope": [
                 
 				"storage.type",
@@ -411,6 +411,7 @@
 		{
 			"name": "Keywords, Storage modifiers",
 			"scope": [
+                "keyword",
 				"keyword.other",
 				"keyword.control",
 				"meta.head.struct",
@@ -445,6 +446,9 @@
 	],
 	"semanticTokenColors": {
 		"type": "#82e6ff",
+        "function": "#fad87c",
         "operatorOverloaded": "#ff5572",
+        "operator": "#ff5572",
+        "keyword": "#C792EA",
     }
 }
