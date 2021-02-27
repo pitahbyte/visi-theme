@@ -9,10 +9,16 @@ class FizzBuzz {
 				text += "buzz";
 			if (text.isEmpty())
 				text = Integer.toString(num);
-
+            
             System.out.println(text);
 		}
 	}
+}
+
+class b extends FizzBuzz
+{
+    void a(){
+    }
 }
 
 class FizzBuzzObjectOriented {
@@ -20,7 +26,7 @@ class FizzBuzzObjectOriented {
         private int num;
         private boolean divBy3;
         private boolean divBy5;
-        private String text;
+        private String text = new String();
 
         public FizzBuzz(int n) {
             num = n;

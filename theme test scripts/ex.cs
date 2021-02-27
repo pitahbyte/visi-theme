@@ -19,6 +19,7 @@ namespace GameOfLife
                 PrintLife(life);
                 life = NextIteration(life);
                 await Task.Delay(1000 / parameters.FrameRate);
+                int a = 1;
             }
         }
 

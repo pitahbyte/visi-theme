@@ -5,8 +5,6 @@
 		"Vicent Baeza <vicentbaeza7@gmail.com>"
 	],
 	"type": "dark",
-	"semanticClass": "palenight",
-	"semanticHighlighting": false,
 	"colors": {
 		"contrastActiveBorder": null,
 		"contrastBorder": "#282B3C",
@@ -204,6 +202,8 @@
 		"breadcrumb.activeSelectionForeground": "#eeffff",
 		"breadcrumbPicker.background": "#292D3E"
 	},
+    "semanticHighlighting": false,
+
 	"tokenColors": [
 		{
 			"name": "Global settings",
@@ -372,6 +372,7 @@
 				"storage.modifier.import.java",
 				"variable.parameter.function.language.special.self",
                 "keyword.control.at-rule",
+                "variable.language.java",
             ],
 			"settings": {
 				"foreground": "#82AAFF"
@@ -411,7 +412,7 @@
 		{
 			"name": "Keywords, Storage modifiers",
 			"scope": [
-                "keyword",
+
 				"keyword.other",
 				"keyword.control",
 				"meta.head.struct",
@@ -435,7 +436,6 @@
                 "keyword.channel",
                 "keyword.const",
                 "keyword.package",
-                "keyword.type",
                 "keyword.import",
                 "keyword.var",
             ],
