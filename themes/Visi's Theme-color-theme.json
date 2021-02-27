@@ -6,7 +6,7 @@
 	],
 	"type": "dark",
 	"semanticClass": "palenight",
-	"semanticHighlighting": true,
+	"semanticHighlighting": false,
 	"colors": {
 		"contrastActiveBorder": null,
 		"contrastBorder": "#282B3C",
@@ -444,11 +444,4 @@
 			}
 		},
 	],
-	"semanticTokenColors": {
-		"type": "#82e6ff",
-        "function": "#fad87c",
-        "operatorOverloaded": "#ff5572",
-        "operator": "#ff5572",
-        "keyword": "#C792EA",
-    }
 }
