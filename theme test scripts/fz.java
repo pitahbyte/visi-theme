@@ -17,7 +17,9 @@ class FizzBuzz {
 
 class b extends FizzBuzz
 {
-    void a(){
+    void a() throws CloneNotSupportedException{
+        super.clone();
+        
     }
 }
 

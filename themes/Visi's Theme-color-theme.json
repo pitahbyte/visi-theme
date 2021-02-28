@@ -202,8 +202,6 @@
 		"breadcrumb.activeSelectionForeground": "#eeffff",
 		"breadcrumbPicker.background": "#292D3E"
 	},
-    "semanticHighlighting": false,
-
 	"tokenColors": [
 		{
 			"name": "Global settings",
@@ -221,7 +219,10 @@
 			"name": "Punctuation",
 			"scope": [
 				"punctuation",
-                "meta.tag.inline.any"
+                "meta.tag.inline.any",
+                "punctuation.definition.variable.shell variable.other.normal.shell",
+                "keyword.control.clause.bodyend",
+                "punctuation.definition.constant.math.tex",
 			],
 			"settings": {
 				"foreground": "#bfc7d5"
@@ -255,6 +256,9 @@
 			"scope": [
 				"string",
 				"punctuation.definition.string",
+                
+                "support.class.math.block.tex",
+                "support.class.math.block.environment.latex",
 			],
 			"settings": {
 				"foreground": "#C3E88D",		
@@ -268,6 +272,8 @@
 				"string.regexp",
 				"constant.character.escape",
 				"punctuation.definition.regexp",
+                "string.quoted.double constant.character.escape.cs",
+                "constant.other.atom.quoted",
 			],
 			"settings": {
 				"foreground": "#80CBC4"
@@ -300,6 +306,7 @@
                 "constant.other.color",
                 "punctuation.separator.decimal.period",
                 "constant.character.entity",
+                "constant.character.math.tex"
 			],
 			"settings": {
 				"foreground": "#ffae6b"
@@ -313,12 +320,12 @@
 				"punctuation.separator.continuation",
 				"punctuation.definition.tag",
 				"entity.name.function.operator",
-				"punctuation.definition.variable",
+				
 				"keyword.operator.assignment.arithmetic",
 				"keyword.operator.assignment.compound",
 				"punctuation.separator.question-mark",
 				"punctuation.accessor",
-				"punctuation.definition.variable",
+				
 				"punctuation.definition.equals.colon",
 				"punctuation.separator.period",
 				"punctuation.separator.colon",
@@ -334,7 +341,10 @@
                 "punctuation.definition.constant.elixir",
                 "keyword.symbol",
                 "punctuation.separator.statement.and",
-                "punctuation.definition.variable.shell variable.other.normal.shell"
+                "keyword.control.clause.bodybegin",
+                "punctuation.definition.variable.elixir",
+                "punctuation.math.operator.latex",
+
             ],
 			"settings": {
 				"foreground": "#ff5572"
@@ -353,6 +363,7 @@
 				"meta.function-call",
 				"entity.name.function.clojure",
                 "entity.other.attribute-name",
+                
             ],
 			"settings": {
 				"foreground": "#fad87c"
@@ -373,6 +384,7 @@
 				"variable.parameter.function.language.special.self",
                 "keyword.control.at-rule",
                 "variable.language.java",
+                "keyword.other.base",
             ],
 			"settings": {
 				"foreground": "#82AAFF"
@@ -404,6 +416,9 @@
                 "support.type.vendored.property-name",
                 "variable.other.constant.elixir",
                 "keyword.type",
+                "variable.language.anonymous.prolog",
+                "variable.parameter.uppercase.prolog",
+                "variable.parameter.function.latex",
             ],
 			"settings": {
 				"foreground": "#82e6ff"
@@ -412,7 +427,6 @@
 		{
 			"name": "Keywords, Storage modifiers",
 			"scope": [
-
 				"keyword.other",
 				"keyword.control",
 				"meta.head.struct",
@@ -437,7 +451,8 @@
                 "keyword.const",
                 "keyword.package",
                 "keyword.import",
-                "keyword.var",
+                "keyword.control.clause.bodybegin",
+                "keyword.control.brainfuck",
             ],
 			"settings": {
 				"foreground": "#C792EA",

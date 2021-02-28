@@ -2,7 +2,7 @@ divBy3(X) :- 0 is mod(X, 3).
 divBy5(X) :- 0 is mod(X, 5).
 
 print_fizz_buzz(X) :- 
-    (divBy3(X),divBy5(X))
+    (divBy3(X),divBy5(_))
     	-> write('FizzBuzz') 
     	; divBy3(X) 
     		-> write('Fizz') 

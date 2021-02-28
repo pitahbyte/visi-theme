@@ -14,7 +14,7 @@ end
 mod3 = "fizz"
 mod5 = "buzz"
 
-for num = 1,100 do
+for num = 1, 100 do
   text = ""
 
   if num % 3 == 0 then

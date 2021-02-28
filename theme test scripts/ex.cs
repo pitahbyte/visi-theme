@@ -21,6 +21,7 @@ namespace GameOfLife
                 await Task.Delay(1000 / parameters.FrameRate);
                 int a = 1;
             }
+
         }
 
         private static StateOfCell[,] PopulateInitialState(Parameters parameters)
@@ -103,7 +104,7 @@ namespace GameOfLife
                     case "-numberOfFrames":
                         numberOfFrames = int.Parse(args[++i]);
                     break;
-                    case "-spawnRate":
+                    case "-spawnRate\n":
                         spawnRate = decimal.Parse(args[++i]);
                     break;
                 }
@@ -142,6 +143,7 @@ namespace GameOfLife
             FrameRate = frameRate ?? 4;
             NumberOfFrames = numberOfFrames ?? 100;
             SpawnRate = spawnRate ?? 0.5m;
+            base.a()
         }
 
         public int Width { get; }
