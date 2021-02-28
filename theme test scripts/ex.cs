@@ -71,6 +71,7 @@ namespace GameOfLife
                 }
             }
             return result;
+            
         }
 
         private static StateOfCell GetNewState(StateOfCell currentState, List<StateOfCell> neighbours)
@@ -83,6 +84,11 @@ namespace GameOfLife
                 return StateOfCell.Alive;
             return StateOfCell.Dead;
         }
+        void a<T>() where T : struct
+        {
+            
+        }
+
 
         private static Parameters ParseParametersFromConsoleArguments(string[] args)
         {

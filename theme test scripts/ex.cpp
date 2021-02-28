@@ -113,6 +113,7 @@ void merge(int low, int mid, int high, vector<int> &v)
 		k++;
 		l++;
 	}
+    sizeof(int);
 }
 
 void mergesort(int low, int high, vector<int> &v)

@@ -370,7 +370,7 @@
 			}
 		},
 		{
-			"name": "Namespaces, Labels & This",
+			"name": "Namespaces, Labels & ",
 			"scope": [				
 				"entity.name.namespace",
 				"storage.namespace",
@@ -453,10 +453,20 @@
                 "keyword.import",
                 "keyword.control.clause.bodybegin",
                 "keyword.control.brainfuck",
+                "keyword.operator.wordlike",
+                "keyword.operator.sizeof",
+                "keyword.operator.delete",
+                "keyword.operator.alignof",
+                "keyword.operator.typeid",
+                "keyword.operator.cast",
+                "keyword.operator.noexcept",
             ],
 			"settings": {
 				"foreground": "#C792EA",
 			}
 		},
 	],
+    "semanticTokenColors": {
+        
+    }
 }
