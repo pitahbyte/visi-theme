@@ -20,13 +20,41 @@
 
 <h2> Javascript: </h2>
 
+<img src="https://github.com/vbe5-ua/visi-theme/blob/main/images/java.png?raw=true">
+
+<h2> Javascript: </h2>
+
 <img src="https://github.com/vbe5-ua/visi-theme/blob/main/images/js.png?raw=true">
+
+<h2> HTML: </h2>
+
+<img src="https://github.com/vbe5-ua/visi-theme/blob/main/images/html.png?raw=true">
 
 <h2> SCSS: </h2>
 
 <img src="https://github.com/vbe5-ua/visi-theme/blob/main/images/css.png?raw=true">
 
-<h2> AHK: </h2>
+<h2> JSON: </h2>
+
+<img src="https://github.com/vbe5-ua/visi-theme/blob/main/images/json.png?raw=true">
+
+<h2> PHP: </h2>
+
+<img src="https://github.com/vbe5-ua/visi-theme/blob/main/images/php.png?raw=true">
+
+<h2>  Lua: </h2>
+
+<img src="https://github.com/vbe5-ua/visi-theme/blob/main/images/lua.png?raw=true">
+
+<h2> Elixir: </h2>
+
+<img src="https://github.com/vbe5-ua/visi-theme/blob/main/images/ex.png?raw=true">
+
+<h2>  YAML: </h2>
+
+<img src="https://github.com/vbe5-ua/visi-theme/blob/main/images/yaml.png?raw=true">
+
+<h2>  AHK: </h2>
 
 <img src="https://github.com/vbe5-ua/visi-theme/blob/main/images/ahk.png?raw=true">
 
