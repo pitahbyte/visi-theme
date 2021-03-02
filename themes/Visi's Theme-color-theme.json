@@ -256,7 +256,7 @@
 			"scope": [
 				"string",
 				"punctuation.definition.string",
-                
+                "constant.other.atom.quoted.prolog",
                 "support.class.math.block.tex",
                 "support.class.math.block.environment.latex",
 			],
@@ -345,6 +345,9 @@
                 "punctuation.definition.variable.elixir",
                 "punctuation.math.operator.latex",
                 "entity.name.function.member.overload",
+                "keyword.control.if.prolog",
+                "keyword.control.else.prolog",
+                "keyword.control.cut.prolog",
             ],
 			"settings": {
 				"foreground": "#ff5572"
@@ -451,8 +454,6 @@
                 "keyword.const",
                 "keyword.package",
                 "keyword.import",
-                "keyword.control.clause.bodybegin",
-                "keyword.control.brainfuck",
                 "keyword.operator.wordlike",
                 "keyword.operator.sizeof",
                 "keyword.operator.delete",
@@ -460,6 +461,7 @@
                 "keyword.operator.typeid",
                 "keyword.operator.cast",
                 "keyword.operator.noexcept",
+                "meta.preprocessor",
             ],
 			"settings": {
 				"foreground": "#C792EA",

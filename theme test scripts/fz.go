@@ -16,6 +16,7 @@ func main() {
             fmt.Println("Buzz")
         } else {
             fmt.Println(i)
+			a.b()
         }   
     }
 }
