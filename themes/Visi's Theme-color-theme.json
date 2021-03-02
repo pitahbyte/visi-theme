@@ -388,6 +388,8 @@
                 "keyword.control.at-rule",
                 "variable.language.java",
                 "keyword.other.base",
+                "meta.preprocessor",
+                "keyword.control.directive",
             ],
 			"settings": {
 				"foreground": "#82AAFF"
@@ -461,7 +463,7 @@
                 "keyword.operator.typeid",
                 "keyword.operator.cast",
                 "keyword.operator.noexcept",
-                "meta.preprocessor",
+
             ],
 			"settings": {
 				"foreground": "#C792EA",
