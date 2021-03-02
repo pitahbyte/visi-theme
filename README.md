@@ -38,10 +38,6 @@
 
 <img src="https://github.com/vbe5-ua/visi-theme/blob/main/images/json.png?raw=true">
 
-<h2> Rust: </h2>
-
-<img src="https://github.com/vbe5-ua/visi-theme/blob/main/images/rs.png?raw=true">
-
 <h2> PHP: </h2>
 
 <img src="https://github.com/vbe5-ua/visi-theme/blob/main/images/php.png?raw=true">
