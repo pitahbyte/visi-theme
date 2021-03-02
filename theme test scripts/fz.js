@@ -1,14 +1,32 @@
-for (let i = 1; i <= 100; ++i) {
-	const divBy3 = i % 3 === 0;
-	const divBy5 = i % 5 === 0;
-
-	if (divBy3 && divBy5) {
-		console.log(`FizzBuzz`);
-	} else if (divBy3) {
-		console.log(`Fizz`);
-	} else if (divBy5) {
-		console.log(`Buzz`);
-	} else {
-		console.log(i);
-	}
+class Queue {
+    constructor() {
+        this.items = [];
+    }
+    enqueue(element) {
+        return this.items.push(element);
+    }
+    dequeue() {
+        if(this.items.length > 0) {
+            return this.items.shift();
+        }
+    }
+    peek() {
+        return this.items[this.items.length - 1];
+    }
+    isEmpty(){
+       return this.items.length === 0;
+    }
+    size(){
+        return this.items.length;
+    }
+    clear(){
+        this.items = [];
+    }
 }
+
+let queue = new Queue();
+queue.enqueue(1);
+queue.enqueue(2);
+queue.enqueue(3);
+queue.enqueue(5);
+console.log(queue.items);

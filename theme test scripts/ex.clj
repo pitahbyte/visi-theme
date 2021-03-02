@@ -1,8 +1,6 @@
 ; code from the Sample Programs in Every Language (SPEL) project 
 
-(ns bubble-sort
-	(:gen-class))
-  
+
 (defn- bubble [ys x]
   (if-let [y (peek ys)]
     (if (> y x)
@@ -10,13 +8,14 @@
       (conj ys x))
     [x]))
 
+(ns bubble-sort
+	(:gen-class))
+
 (defn bubble-sort [xs]
   (let [ys (reduce bubble [] xs)]
     (if (= xs ys)
       xs
       (recur ys))))
-
-
 
 (defn- convert-to-string [int-array]
   (clojure.string/join ", " int-array))

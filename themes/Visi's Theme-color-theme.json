@@ -223,6 +223,8 @@
                 "punctuation.definition.variable.shell variable.other.normal.shell",
                 "keyword.control.clause.bodyend",
                 "punctuation.definition.constant.math.tex",
+                "meta.brace",
+                
 			],
 			"settings": {
 				"foreground": "#bfc7d5"
@@ -390,6 +392,7 @@
                 "keyword.other.base",
                 "meta.preprocessor",
                 "keyword.control.directive",
+                "keyword.control.directives",
             ],
 			"settings": {
 				"foreground": "#82AAFF"

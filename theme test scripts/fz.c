@@ -1,41 +1,30 @@
 #include "stdio.h"
 #include "string.h"
 
-int main(void) { 
-   int num;
-
-   for (num = 1; num <= 100; num++) {
-      char text[16] = "";
+int fizzbuzz(int lim) { 
+    for (int num = 1; num <= lim; num++) {
+        char text[16] = "";
    	
-      if (num % 3 == 0) {
-         strcat(text, "fizz");
-      }
-      if (num % 5 == 0) {
-         strcat(text, "buzz");
-      }
-   	
-      if (text[0] != '\0') {
-         printf("%s\n", text);
-      }
-      else {
-         printf("%d\n", num);
-      }
-   }
-   return 0;
-}
+        if (num % 3 == 0)
+            strcat(text, "fizz");
 
-int main(void) { 
-   for (int num = 1; num <= 100; num++) {
-      char text[16] = "";
-   	
-      if (num % 3 == 0)
-         strcat(text, "fizz");
-
-      if (num % 5 == 0)
-         strcat(text, "buzz");
+        if (num % 5 == 0)
+            strcat(text, "buzz");
  	
-      text[0] != '\0' ? printf("%s\n", text) : printf("%d\n", num);
-   }
-   return 0;
+        text[0] != '\0' ? printf("%s\n", text) : printf("%d\n", num);
+    }
+    return 0;
 }
+
+int main(void) { 
+    int lim;
+    printf("Enter the limit: ");
+    scanf("%d", &lim);
+
+    fizzbuzz(100);
+
+    return 0;
+}
+
+
 
