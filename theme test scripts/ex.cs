@@ -4,7 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
 #nullable enable
 
 namespace GameOfLife
@@ -40,7 +39,7 @@ namespace GameOfLife
             }
             return initialState;
         }
-
+        
         private static StateOfCell[,] NextIteration(StateOfCell[,] currentStateOfLife)
         {
             var dimension = currentStateOfLife.GetLength(0);
