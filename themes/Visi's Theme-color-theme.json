@@ -206,10 +206,11 @@
 		{
 			"name": "Global settings",
 			"scope": [
+                "",
+                "variable.other",
 				"string.unquoted.argument",
-				"string.interpolated.backtick.shell",
-				"",
-				"variable.other",
+				"string.interpolated.backtick.shell",	
+                "entity.name.type.template",
 			],
 			"settings": {
 				"foreground": "#eeffff"
@@ -430,6 +431,7 @@
                 "variable.language.anonymous.prolog",
                 "variable.parameter.uppercase.prolog",
                 "variable.parameter.function.latex",
+                "storage.type.template.argument",
             ],
 			"settings": {
 				"foreground": "#82e6ff"
