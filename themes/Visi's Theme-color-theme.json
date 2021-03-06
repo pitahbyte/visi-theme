@@ -474,7 +474,7 @@
                 "storage.type.template",
                 "storage.type.template.argument.class",
                 "storage.type.template.argument.struct",
-
+                "storage.type.template.argument.typename",
             ],
 			"settings": {
 				"foreground": "#C792EA",
