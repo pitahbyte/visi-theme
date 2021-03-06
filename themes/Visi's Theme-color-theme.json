@@ -224,7 +224,9 @@
                 "keyword.control.clause.bodyend",
                 "punctuation.definition.constant.math.tex",
                 "meta.brace",
-                
+                "meta.preprocessor.string",
+                "string.unquoted.preprocessor",
+                "entity.name.function.operator.member",
 			],
 			"settings": {
 				"foreground": "#bfc7d5"
@@ -267,7 +269,7 @@
 			}
 		},
 		{
-			"name": "RegExp String /Escape / Chars",
+			"name": "RegExp String / Escaped chars",
 			"scope": [
 				"string.regexp",
 				"string.regexp keyword.other",
@@ -473,7 +475,4 @@
 			}
 		},
 	],
-    "semanticTokenColors": {
-        
-    }
 }
