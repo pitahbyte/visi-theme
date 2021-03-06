@@ -372,7 +372,7 @@
 				"meta.function-call",
 				"entity.name.function.clojure",
                 "entity.other.attribute-name",
-                
+                "entity.name.function.preprocessor",
             ],
 			"settings": {
 				"foreground": "#fad87c"
