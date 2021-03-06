@@ -226,7 +226,8 @@
                 "meta.brace",
                 "meta.preprocessor.string",
                 "string.unquoted.preprocessor",
-                "meta.parens"
+                "meta.parens",
+                "punctuation.separator.colon.access.control",
 			],
 			"settings": {
 				"foreground": "#bfc7d5"
@@ -468,6 +469,9 @@
                 "keyword.operator.typeid",
                 "keyword.operator.cast",
                 "keyword.operator.noexcept",
+                "storage.type.template",
+                "storage.type.template.argument.class",
+                "storage.type.template.argument.struct",
 
             ],
 			"settings": {
