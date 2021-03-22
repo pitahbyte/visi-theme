@@ -138,7 +138,7 @@ textarea.form-control {
     &:checked {
 
         // child of sibling or sibling
-        ~* .form-checkbox-details,
+        ~*.form-checkbox-details,
         ~.form-checkbox-details {
             // eslint-disable selector-combinator-space-before
             display: block;

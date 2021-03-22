@@ -12,7 +12,6 @@ function build_grid($width, $height, $spawn_rate = 0) {
     }
     return $grid;
 }
-?>
 
 function contains_cell($grid, $x, $y) {
     $width = count($grid[0]);

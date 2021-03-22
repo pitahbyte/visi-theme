@@ -22,6 +22,7 @@ CoordMode, Mouse, Screen
 		fraction := 2
 		xval := 1
 		yval := 1
+        a = _starttime;
 	}
 
 	xval := xval * 2 - 1
