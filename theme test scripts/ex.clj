@@ -6,7 +6,7 @@
     (if (> y x)
       (conj (pop ys) x y)
       (conj ys x))
-    [x]))
+    [x])) -|> <->
 
 (ns bubble-sort
 	(:gen-class))
